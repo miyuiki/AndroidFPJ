@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="165dp"
+        android:layout_height="45dp"
+        android:text="我要登入"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="112dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/create_btn"
+        android:layout_alignStart="@+id/create_btn"
+        android:layout_marginBottom="206dp" />
+
+    <Button
+        android:id="@+id/create_btn"
+        android:layout_width="165dp"
+        android:layout_height="45dp"
+        android:text="建立帳號"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="233dp"
+        android:layout_marginBottom="81dp"
+        android:layout_above="@+id/login_btn"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
